@@ -5,19 +5,22 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/app-home.component';
 import { HistoryComponent } from './history/history.component';
+import { ProductComponent } from './product/product.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    HistoryComponent
+    HistoryComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot([
       { path: 'home', component: HomeComponent },
       { path: 'history', component: HistoryComponent},
+      { path: 'product', component: ProductComponent},
       { path: '', redirectTo: 'home', pathMatch: 'full'}
     ])
   ],

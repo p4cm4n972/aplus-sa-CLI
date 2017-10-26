@@ -1,9 +1,9 @@
-.navbar {
-}
 .navbar li a {
 color: #0079c2; 
 }
-
+.navbar li a:hover {
+    color: #f89829
+}
 .footer {
     right: 0;
     bottom: 0;
@@ -11,4 +11,8 @@ color: #0079c2;
     padding: 1rem;
     text-align: center;
     background-color: #0079c2;
+}
+.tease {
+    color: #f89829;
+    padding: 5px;
 }
