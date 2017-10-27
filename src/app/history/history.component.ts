@@ -5,6 +5,10 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './history.component.html',
   styleUrls: ['./history.component.css']
 })
-export class HistoryComponent {
-title = 'La société';
+export class HistoryComponent implements OnInit{
+  title = 'La société';
+
+  ngOnInit(): void {
+    console.log('init');
+  }
 }
