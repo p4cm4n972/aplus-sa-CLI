@@ -6,11 +6,11 @@
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
-  border-top: 12px solid #f89829;
+  border-top: 12px solid #0079c2;
   border-bottom: 12px solid #b4dc95;
   border-bottom-right-radius: 2em;
-  border-left: 6px solid #0079c2;
-  border-right: 6px solid #0079c2;
+  border-left: 6px solid #f89829;
+  border-right: 6px solid #f89829;
   border-bottom-right-radius: 2em;
 
 }
