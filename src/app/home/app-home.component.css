@@ -52,7 +52,25 @@
   left: -70px;
   top: 150px;
 }
-
+video {
+  width: 420px;
+  border-radius: 5px;
+  margin: auto;
+  
+}
+.presentationVideo {
+}
+.presentationVideo video {
+  text-align: center;
+}
+.presentationVideo p {
+  padding: 20px;
+  text-align: justify;
+}
+.presentationVideo h2 {
+  color: #0079c2;
+  text-align: center;
+}
 .metier {
   height: 600px;
   padding-top: 150px;
