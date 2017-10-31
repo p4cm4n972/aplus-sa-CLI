@@ -1,3 +1,4 @@
+
 .keys {
   color: white;
   height: auto;
@@ -5,7 +6,7 @@
   border-radius: 5px;
   padding: 15px;
   box-shadow: 5px 5px 25px 0px rgba(46, 61, 73, .2);
-border-bottom-left-radius: 50px;
+  border-bottom-left-radius: 50px;
 }
 
 .keys h2 {
@@ -13,8 +14,9 @@ border-bottom-left-radius: 50px;
 }
 
 .certif {
-box-shadow: 5px 5px 25px 0px rgba(46, 61, 73, .2);
+  box-shadow: 5px 5px 25px 0px rgba(46, 61, 73, .2);
 padding-top: 5px;
+background-color: #fff;
 }
 video {
   width: auto;
@@ -50,9 +52,10 @@ video {
   background-image: url("/assets/image/APLUS_small.PNG");
   background-repeat: repeat;
   background-repeat: repeat-y repeat-x;
+  z-index: -1;
+  opacity: .1;
   width: 100%;
+  height: 2200px;
   position: absolute;
-  opacity:.05;
-  top:80px;
-  bottom:0;
+  top: 0px;
 }
