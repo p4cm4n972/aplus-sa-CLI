@@ -1,0 +1,152 @@
+[{
+    "productId": 1,
+    "productPrt": "informatique industrielle",
+    "productName": "Panel PC & Station de travail",
+    "imageUrl": "http://54.148.96.7/wp-content/uploads/2016/07/panel-pc.png",
+    "seller": ["http://52.89.180.230/wp-content/uploads/2017/06/nexcom-2-150x80.png",
+      "http://52.89.180.230/wp-content/uploads/2017/06/iei-1-150x80.png",
+      "http://52.89.180.230/wp-content/uploads/2017/06/avalue-1-150x80.png"
+    ],
+    "color": "rgba(2, 179, 228, .8)",
+    "article": [{
+        "articleName": "Digital Signage Player",
+        "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/07/nexcom2-150x150.jpg",
+        "seller":"nexcom"
+      },
+      {
+        "articleName": "Embedded Computing",
+        "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/07/nexcom2-150x150.jpg",
+        "seller":"nexcom"
+    }, {
+      "articleName": "Industrial Rackmount Computer",
+      "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/07/nexcom3-150x150.jpg",
+      "seller":"nexcom" 
+
+      },
+      {
+        "articleName": "Kiosk Panel PC",
+        "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/07/nexcom4-150x150.jpg",
+        "seller":"nexcom" 
+  
+        },
+        {
+          "articleName": "Passenger Information Panel PC",
+          "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/07/nexcom5-150x150.jpg",
+          "seller":"nexcom" 
+    
+          },
+        {
+        "articleName": "Light Industrial Panel PC",
+        "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/05/259_1.png",
+        "seller":"iei"        
+      },
+      {
+        "articleName": "Light Industrial Panel PC",
+        "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/05/130_1-300x248.png",
+        "seller":"iei"        
+      },
+      {
+        "articleName": "Light Industrial Panel PC",
+        "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/05/182_1-150x150.png",
+        "seller":"iei"        
+      },
+      {
+        "articleName": "Light Industrial Panel PC",
+        "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/05/421_1.png",
+        "seller":"iei"        
+      },
+      {
+        "articleName": "Light Industrial Panel PC",
+        "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/05/524.png.jpg",
+        "seller":"iei"        
+      }]
+  },
+  {
+    "productId": 2,
+    "productPrt": "informatique industrielle",
+    "productName": "PC embarqué",
+    "imageUrl": "http://54.148.96.7/wp-content/uploads/2016/07/pc-embedded.png",
+    "seller": ["http://52.89.180.230/wp-content/uploads/2017/06/sintrones-150x80.png",
+      "http://52.89.180.230/wp-content/uploads/2017/06/mpl-150x80.png",
+      "http://52.89.180.230/wp-content/uploads/2017/06/iei-150x80.png"
+    ],
+    "color": "rgba(2,204,186,0.8)"
+  },
+  {
+    "productId": 3,
+    "productPrt": "informatique industrielle",
+    "productName": "Moniteurs industriels",
+    "imageUrl": "http://54.148.96.7/wp-content/uploads/2016/07/moniteur-industriel-150x150.png",
+    "seller": ["http://52.89.180.230/wp-content/uploads/2017/06/cincoze-1-150x80.png"],
+    "color": "rgba(169,81,237,0.8)"
+  }, {
+    "productId": 4,
+    "productPrt": "informatique industrielle",
+    "productName": "Solution réseaux",
+    "imageUrl": "http://54.148.96.7/wp-content/uploads/2016/07/switch-150x150.png",
+    "seller": ["http://52.89.180.230/wp-content/uploads/2017/06/oring-2-150x80.png",
+      "http://52.89.180.230/wp-content/uploads/2017/06/sunhillo-2-150x80.png",
+      "http://52.89.180.230/wp-content/uploads/2017/06/mpl-1-150x80.png"
+    ],
+    "color": "rgba(125,151,173,0.8)"
+  }, {
+    "productId": 5,
+    "productPrt": "informatique industrielle",
+    "productName": "Cartes mères industrielles",
+    "imageUrl": "http://54.148.96.7/wp-content/uploads/2016/07/carte-mere-industrielle-150x150.png",
+    "seller": ["http://52.89.180.230/wp-content/uploads/2017/06/iei-1-150x80.png",
+      "../../assets/image/partners/logos/congatec-business-logo.png"
+    ],
+    "color": "rgba(255,162,52,0.8)"
+  }, {
+    "productId": 6,
+    "productPrt": "informatique industrielle",
+    "productName": "Mémoires flash",
+    "imageUrl": "http://54.148.96.7/wp-content/uploads/2016/07/memoire-flash.png",
+    "seller": ["http://52.89.180.230/wp-content/uploads/2017/06/innodisk-150x80.png"],
+    "color": "rgba(255,84,131,0.8)"
+  }, {
+    "productId": 7,
+    "productPrt": "informatique industrielle",
+    "productName": "Cartes Entrées / Sorties",
+    "imageUrl": "http://54.148.96.7/wp-content/uploads/2016/07/carte-entree-sortie.png",
+    "seller": ["http://52.89.180.230/wp-content/uploads/2017/05/addidata-150x80.png",
+      "http://52.89.180.230/wp-content/uploads/2017/05/adlinka-150x80.png"
+    ],
+    "color": "rgba(2,204,186,0.8)"
+  }, {
+    "productId": 8,
+    "productPrt": "informatique industrielle",
+    "productName": "Accessoires",
+    "imageUrl": "http://54.148.96.7/wp-content/uploads/2016/07/composant-affichage-tactile-150x150.png",
+    "seller": ["http://52.89.180.230/wp-content/uploads/2017/06/cincoze-2-150x80.png"],
+    "color": "rgba(169,81,237,0.8)"
+  }, {
+    "productId": 9,
+    "productPrt": "Interface",
+    "productName": "Terminaux et périphériques point de vente",
+    "imageUrl": "http://54.148.96.7/wp-content/uploads/2016/07/terminaux-point-vente-150x150.png",
+    "seller": ["http://52.89.180.230/wp-content/uploads/2017/06/posiflex-2-150x80.png",
+      "http://52.89.180.230/wp-content/uploads/2017/06/sii-2-150x80.png",
+      "http://52.89.180.230/wp-content/uploads/2017/06/epson-2-150x80.png"
+    ],
+    "color": "rgba(125,151,173,0.8)"
+  }, {
+    "productId": 10,
+    "productPrt": "Interface",
+    "productName": "Imprimante thermique & mobile",
+    "imageUrl": "http://product-images.www8-hp.com/digmedialib/prodimg/lowres/c03348737.png",
+    "seller": ["http://52.89.180.230/wp-content/uploads/2017/06/zebra-3-150x80.png"],
+    "color": "rgba(255,84,131,0.8)"
+  },
+  {
+    "productId": 11,
+    "productPrt": "Interface",
+    "productName": "Moniteurs et Ordinateurs tactiles",
+    "imageUrl": "http://54.148.96.7/wp-content/uploads/2016/07/moniteur-industriel-150x150.png",
+    "seller": ["http://52.89.180.230/wp-content/uploads/2017/06/elo-1-150x80.png",
+      "http://www.abbegroup.com.my/wp-content/uploads/2017/09/news_s63.jpg"
+    ],
+    "color": "rgba(248, 152, 41, .8)"
+  }
+]

@@ -1,0 +1,21 @@
+<div class="container">
+  <div class='row'>
+    <div class="col-ms-12">
+      <div class='panel panel' *ngIf='product'>
+        <div class='panel heading' [style.background-color]='this.product.color'>
+          {{product.productName}}
+        </div>
+        <div class="panel body">
+          <button  class="btn btn-default card" type="button" *ngFor="let article of this.product.article, index as i">
+           <div>{{product.article[i].articleName}}</div>
+             <img class="card-image" [src]='product.article[i].articleUrl'> </button>
+        </div>
+        <div class="panel-footer">
+      <a class="btn btn-default" (click)='onBack()' style='width:80px'>
+        <i class="glyphicon glyphicon-chevron-left"></i>Back
+      </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

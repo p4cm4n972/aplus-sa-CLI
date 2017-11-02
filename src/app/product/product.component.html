@@ -1,0 +1,59 @@
+  <div class='container'>
+    <div class='panel-body'>
+      <div class='row' style="display: none">
+        <div class='col-md-2'>Filtrer par</div>
+        <div class='col-md-4'>
+          <input type="text" [(ngModel)]='listFilter' />
+        </div>
+      </div>
+      <div class='row' style="display: none">
+        <div class='col-md-6'>
+          <h3>Filtrer par: {{listFilter}}</h3>
+        </div>
+      </div>
+      <div class='table-responsive'>
+        <table class="table ">
+          <thead>
+            <tr>
+              <th>
+                <button class='btn btn-basic active' (click)='toggleImage("")'>
+                  Tous
+                </button>
+                <button class='btn btn-primary' (click)='toggleImage("Informatique")'>
+                  Informatique industrielle
+                </button>
+                <button class='btn btn-warning' (click)='toggleImage("Interface")'>
+                  Interfaces et système d'affichage
+                </button>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            
+            <h1 class="text-center" *ngIf='listFilter == ""'>{{pageSubTitle01}}</h1>
+            <h1 class="text-center" *ngIf='listFilter == "Informatique"'>{{pageSubTitle02}}</h1>
+            <h1 class="text-center" *ngIf='listFilter == "Interface"'>{{pageSubTitle03}}</h1>
+          
+            <a *ngFor="let product of filteredProducts" [routerLink]="['/product', product.productId]">
+              <div class="col-sm-4 solutions_reseau">
+                <div class="vignette">
+                  <div class="vignette-header">
+                    <div class="vignette-header-overlay" [style.background-color]='product.color'>
+                        <img [src]='product.imageUrl' [title]='product.productName' [style.width.px]='imageWidth'>
+                    </div>
+                  </div>
+                  <div class="vignette-body ">
+                    <h4 class="text-center">{{product.productName}}</h4>
+                  </div>
+                  <div class="vignette-footer text-center">
+                    <p><img *ngFor='let img of this.product.seller, index as i' [src]='product.seller[i]' width="100px"></p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </tbody>
+
+        </table>
+      </div>
+    </div>
+  </div>
