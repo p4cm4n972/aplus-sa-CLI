@@ -1,9 +1,13 @@
 .navbar {
-    margin-bottom: 0px;
+    background-color: #fff;
+    
+
     
 }
 .navbar li a {
-color: #0079c2; 
+color: #2222;
+line-height: 22px;
+font-weight: 700;
 }
 .navbar li a:hover {
     color: #f89829

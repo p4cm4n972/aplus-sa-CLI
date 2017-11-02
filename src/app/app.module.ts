@@ -9,6 +9,7 @@ import { HomeComponent } from './home/app-home.component';
 import { HistoryComponent } from './history/history.component';
 import { ProductComponent } from './product/product.component';
 import { ProductDetailComponent } from './product/product-detail.component';
+import { PartnerComponent } from './partner/partner.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { ProductDetailComponent } from './product/product-detail.component';
     HomeComponent,
     HistoryComponent,
     ProductComponent,
-    ProductDetailComponent
+    ProductDetailComponent,
+    PartnerComponent
   ],
   imports: [
     BrowserModule,
@@ -28,6 +30,7 @@ import { ProductDetailComponent } from './product/product-detail.component';
       { path: 'history', component: HistoryComponent},
       { path: 'product', component: ProductComponent},
       { path: 'product/:id', component: ProductDetailComponent},
+      { path: 'partner', component: PartnerComponent},
       { path: '', redirectTo: 'home', pathMatch: 'full'}
     ])
   ],
