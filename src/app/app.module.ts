@@ -4,6 +4,7 @@ import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
+
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/app-home.component';
 import { HistoryComponent } from './history/history.component';
@@ -19,7 +20,7 @@ import { PartnerComponent } from './partner/partner.component';
     HistoryComponent,
     ProductComponent,
     ProductDetailComponent,
-    PartnerComponent
+    PartnerComponent,
   ],
   imports: [
     BrowserModule,

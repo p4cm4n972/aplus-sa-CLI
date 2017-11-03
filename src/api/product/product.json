@@ -10,7 +10,7 @@
     "color": "rgba(2, 179, 228, .8)",
     "article": [{
         "articleName": "Digital Signage Player",
-        "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/07/nexcom2-150x150.jpg",
+        "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/07/nexcom-150x150.jpg",
         "seller":"nexcom"
       },
       {
@@ -41,22 +41,22 @@
         "seller":"iei"        
       },
       {
-        "articleName": "Light Industrial Panel PC",
+        "articleName": "RISC-Base Panel PC",
         "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/05/130_1-300x248.png",
         "seller":"iei"        
       },
       {
-        "articleName": "Light Industrial Panel PC",
+        "articleName": "Medical Panel PC",
         "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/05/182_1-150x150.png",
         "seller":"iei"        
       },
       {
-        "articleName": "Light Industrial Panel PC",
+        "articleName": "Industrial Touch Monitor",
         "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/05/421_1.png",
         "seller":"iei"        
       },
       {
-        "articleName": "Light Industrial Panel PC",
+        "articleName": "Heavy Industrial Panel",
         "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/05/524.png.jpg",
         "seller":"iei"        
       }]

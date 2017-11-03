@@ -1,36 +1,30 @@
 
-/*header.masthead {
-  width: 100%;
-  height: 750px;
-  background-image: url("../../assets/image/bkg.jpg");
-  background-position-y: -190px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  border-top: 12px solid #0079c2;
-  border-bottom: 12px solid #b4dc95;
-  border-bottom-right-radius: 2em;
-  border-left: 6px solid #f89829;
-  border-right: 6px solid #f89829;
-  border-bottom-right-radius: 2em;
-  margin-top:9px;
-}*/
+body {
+  webkit-tap-highlight-color: #fed136;
+}
+
 section {
   padding: 100px 0;
 }
+.section1,.section3{
+  background: rgba(46, 61, 73, .1)
+}
+.section2 img {
+  width: 100%;
+  padding: 5px;
+  margin-left:5px;
+  border-radius: 15px;
+  padding-bottom: 50px;
+}
+
+
 @media (min-width: 768px) {
   section {
     padding: 150px 0;
   }
 }
-header.masthead>.overlay {
-  padding: 155rem 0;
-  text-align: center;
-  background: rgba(0, 0, 0, 0.8);
-}
+
 header {
-  width: 100%;
-  height: 750px;
   background-image: url('../../assets/image/bkg.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -39,8 +33,6 @@ header {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  background-position-y: -190px;
-  overflow: hidden;
   border-top: 12px solid #0079c2;
   border-bottom: 12px solid #b4dc95;
   border-bottom-right-radius: 2em;
@@ -48,29 +40,52 @@ header {
   border-right: 6px solid #f89829;
   border-bottom-right-radius: 2em;
 }
+header .intro-text {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+header .intro-text .intro-lead-in {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 22px;
+  line-height: 22px;
+  margin-bottom: 25px;
+  color: transparent;
+  
+}
+header .intro-text .intro-heading {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  margin-bottom: 25px;
+  color: transparent;
+}
+@media (min-width: 768px) {
+  header .intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px;
+  }
+  header .intro-text .intro-lead-in {
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 25px;
+  }
+  header .intro-text .intro-heading {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 75px;
+    margin-bottom: 50px;
+    
+  }
+}
 /*********************************************************************/
 
-#loading {
-  -webkit-animation: rotation 15s infinite linear;
-}
-
-@-webkit-keyframes rotation {
-  from {
-    -webkit-transform: rotateY(0deg);
-  }
-  to {
-    -webkit-transform: rotateY(359deg);
-  }
-}
-
-.anime01 {
-  position: absolute;
-  z-index: 100000;
-  left: -70px;
-  top: 150px;
-}
-
-/**********************************************************************/
 video {
   width: 420px;
   border-radius: 5px;
@@ -176,7 +191,7 @@ video {
 .slogan {
   width: 100%;
   height: auto;
-  background: linear-gradient(160deg, #0079c2 0%, #f89829 100%);
+  background: linear-gradient(160deg, #0079c2 0%, #AA7ECD 100%);
   margin-top: 30px;
   text-align: center;
 }

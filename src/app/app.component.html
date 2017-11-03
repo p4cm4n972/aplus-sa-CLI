@@ -36,7 +36,7 @@
   </nav>-->
   
    <!-- Navigation -->
-   <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+   <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top affix-top">
       
       <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
@@ -44,7 +44,7 @@
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                   <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
               </button>
-              <a class="navbar-brand nav-item" href="#page-top"><img src="../assets/image/APLUS_small.PNG" width="120px" alt="business logo APLUS SA"></a>
+              <a class="navbar-brand nav-item" [routerLink]="['/home']"><img src="../assets/image/APLUS_small.PNG" width="120px" alt="business logo APLUS SA"></a>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
@@ -59,8 +59,8 @@
                   <li>
                       <a class="nav-item" [routerLink]="['/history']">LA SOCIÉTÉ</a>
                   </li>
-                  <li class="nav-item">
-                      <a [routerLink]="['/history']">NOS COMPÉTENCES</a>
+                  <li>
+                      <a class="nav-item" [routerLink]="['/history']">NOS COMPÉTENCES</a>
                     </li>
                   <li>
                       <a class="nav-item" [routerLink]="['/product']">NOS PRODUITS</a>
@@ -68,11 +68,11 @@
                   <li>
                       <a class="nav-item" [routerLink]="['/partner']">NOS PARTENAIRES</a>
                   </li>
-                  <li class="nav-item">
-                      <a [routerLink]="['/history']">NEWS</a>
+                  <li>
+                      <a class="nav-item" [routerLink]="['/history']">NEWS</a>
                     </li>
-                    <li class="nav-item">
-                      <a [routerLink]="['/history']">CONTACT</a>
+                    <li>
+                      <a class="nav-item" [routerLink]="['/history']">CONTACT</a>
                     </li>
               </ul>
           </div>
