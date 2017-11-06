@@ -33,12 +33,7 @@ header {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  border-top: 12px solid #0079c2;
-  border-bottom: 12px solid #b4dc95;
-  border-bottom-right-radius: 2em;
-  border-left: 6px solid #f89829;
-  border-right: 6px solid #f89829;
-  border-bottom-right-radius: 2em;
+ 
 }
 header .intro-text {
   padding-top: 100px;
@@ -89,7 +84,13 @@ header .intro-text .intro-heading {
 video {
   width: 420px;
   border-radius: 5px;
-  margin: auto;  
+  margin: auto;
+  border-top: 2px solid #0079c2;
+  border-bottom: 2px solid #b4dc95;
+  border-bottom-right-radius: 2em;
+  border-left: 1px solid #f89829;
+  border-right: 1px solid #f89829;
+  border-bottom-right-radius: 2em;
 }
 
 .presentationVideo video {
@@ -327,7 +328,7 @@ video {
 }
 /*********************CONTACT***************************/
 section#contact {
-  background-color: #222222;
+  background-color: #0079c2;
   background-image: url('../../assets/image/map-image.png');
   background-position: center;
   background-repeat: no-repeat;
