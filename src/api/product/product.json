@@ -332,90 +332,90 @@
     "color": "rgba(255,162,52,0.8)",
     "article":[
       {
-        "articleName": "",
-        "articleUrl": "",
-        "seller": ""
+        "articleName": "Industrial motherboard",
+        "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/05/Carte-M%C3%A8re-Industrielle.png",
+        "seller": "iei"
       },{
-        "articleName": "",
-        "articleUrl": "",
-        "seller": ""
+        "articleName": "Embeddeb CPU board",
+        "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/05/Carte-cpu-embarqu%C3%A9-300x207.png",
+        "seller": "iei"
       },{
-        "articleName": "",
-        "articleUrl": "",
-        "seller": ""
+        "articleName": "Half size CPU card",
+        "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/05/cpu-courte-300x218.png",
+        "seller": "iei"
       },{
-        "articleName": "",
-        "articleUrl": "",
-        "seller": ""
+        "articleName": "backplane",
+        "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/05/Bus-passif-300x117.png",
+        "seller": "iei"
       },{
-        "articleName": "",
-        "articleUrl": "",
-        "seller": ""
+        "articleName": "Full size CPU card",
+        "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/05/full-size-cpu-300x128.png",
+        "seller": "iei"
       },{
-        "articleName": "",
-        "articleUrl": "",
-        "seller": ""
+        "articleName": "ETX / COM express / Q7",
+        "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/05/197_1-150x150.png",
+        "seller": "iei"
       },{
-        "articleName": "",
-        "articleUrl": "",
-        "seller": ""
+        "articleName": "LCD converter board",
+        "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/05/38_1-150x150.png",
+        "seller": "iei"
       },{
-        "articleName": "",
-        "articleUrl": "",
-        "seller": ""
+        "articleName": "Wireless module",
+        "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/05/203.png.jpg",
+        "seller": "iei"
       },{
-        "articleName": "",
-        "articleUrl": "",
-        "seller": ""
+        "articleName": "Industrial communication card",
+        "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/05/512_1-150x150.png",
+        "seller": "iei"
       },{
-        "articleName": "",
-        "articleUrl": "",
-        "seller": ""
+        "articleName": "Mini-PCIe module",
+        "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/05/117_1-150x150.png",
+        "seller": "iei"
       },{
-        "articleName": "",
-        "articleUrl": "",
-        "seller": ""
+        "articleName": "Qseven",
+        "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/05/csm_Bild2_680a64d9e3-150x150.jpg",
+        "seller": "congatec"
       },{
-        "articleName": "",
-        "articleUrl": "",
-        "seller": ""
+        "articleName": "SMARC",
+        "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/05/csm_conga-IC87_per_l_c975d374ae-150x150.jpg",
+        "seller": "congatec"
       },{
-        "articleName": "",
-        "articleUrl": "",
-        "seller": ""
+        "articleName": "Com Express type 2",
+        "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/05/csm_conga-BS77_web_27ceaa662a.png",
+        "seller": "congatec"
       },{
-        "articleName": "",
-        "articleUrl": "",
-        "seller": ""
+        "articleName": "Com Express type 6",
+        "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/05/conga.jpg",
+        "seller": "congatec"
       },{
-        "articleName": "",
-        "articleUrl": "",
-        "seller": ""
+        "articleName": "Com Express type 7",
+        "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/05/conga2.png",
+        "seller": "congatec"
       },{
-        "articleName": "",
-        "articleUrl": "",
-        "seller": ""
+        "articleName": "Com Express type 10",
+        "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/05/csm_conga-MA5_web_b0abeaef13.png",
+        "seller": "congatec"
       },{
-        "articleName": "",
-        "articleUrl": "",
-        "seller": ""
+        "articleName": "XTX",
+        "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/05/XTX.png",
+        "seller": "congatec"
       },{
-        "articleName": "",
-        "articleUrl": "",
-        "seller": ""
+        "articleName": "ETX",
+        "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/05/csm_conga-ELX_web_fccc0dfe2d.png",
+        "seller": "congatec"
       },{
-        "articleName": "",
-        "articleUrl": "",
-        "seller": ""
+        "articleName": "Mini ITX",
+        "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/05/csm_conga-IA3_web_da99a98f29.png",
+        "seller": "congatec"
       },{
-        "articleName": "",
-        "articleUrl": "",
-        "seller": ""
+        "articleName": "Pico ITX",
+        "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/05/csm_conga-PA3_web_0e50a9e1c0.png",
+        "seller": "congatec"
       },{
-        "articleName": "",
-        "articleUrl": "",
-        "seller": ""
-      },
+        "articleName": "Accessories",
+        "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/05/csm_conga-SKIT_a6ffa81dd5.jpg",
+        "seller": "congatec"
+      }
     ]
   },
   {
@@ -427,7 +427,48 @@
       "sellerName": "innodisk",
       "sellerUrl": "http://52.89.180.230/wp-content/uploads/2017/06/innodisk-150x80.png"
     }],
-    "color": "rgba(255,84,131,0.8)"
+    "color": "rgba(255,84,131,0.8)",
+    "article":[{
+      "articleName": "SATADOM",
+      "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/05/SATADOM-SL-3SE-150x150.png",
+      "seller": "innodisk"
+    },{
+      "articleName": "SATA slim",
+      "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/05/SATA_Slim_3SE-P-150x150.jpg",
+      "seller": "innodisk"
+    },{
+      "articleName": "CFast",
+      "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/05/CFast-31E-150x150.png",
+      "seller": "innodisk"
+    },{
+      "articleName": "mSATA",
+      "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/05/mSATA_3ME-150x150.png",
+      "seller": "innodisk"
+    },{
+      "articleName": "mini PCIe DOM",
+      "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/05/mini_PCIeDOM_1ME-150x150.png",
+      "seller": "innodisk"
+    },{
+      "articleName": "Compact flash card",
+      "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/05/ICF4000-150x150.jpg",
+      "seller": "innodisk"
+    },{
+      "articleName": "SD card & micro SD card",
+      "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/05/Industrial-micro-SD-150x150.jpg",
+      "seller": "innodisk"
+    },{
+      "articleName": "EDC",
+      "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/05/EDC_1ME-150x150.png",
+      "seller": "innodisk"
+    },{
+      "articleName": "SSD 18\"",
+      "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/05/20161128-09282904-150x150.jpg",
+      "seller": "innodisk"
+    },{
+      "articleName": "SSD 25\"",
+      "articleUrl": "http://52.89.180.230/wp-content/uploads/2017/05/IMG-SSD-1SR-150x150.jpg",
+      "seller": "innodisk"
+    }]
   },
   {
     "productId": 7,
@@ -443,7 +484,14 @@
         "sellerUrl": "http://52.89.180.230/wp-content/uploads/2017/05/adlinka-150x80.png"
       }
     ],
-    "color": "rgba(2,204,186,0.8)"
+    "color": "rgba(2,204,186,0.8)",
+    "article":[
+      {
+        "articleName": "",
+        "articleUrl": "",
+        "seller": ""
+      }
+    ]
   },
   {
     "productId": 8,
@@ -454,7 +502,14 @@
       "sellerName": "cincoze",
       "sellerUrl": "http://52.89.180.230/wp-content/uploads/2017/06/cincoze-2-150x80.png"
     }],
-    "color": "rgba(169,81,237,0.8)"
+    "color": "rgba(169,81,237,0.8)",
+    "article":[
+      {
+        "articleName": "",
+        "articleUrl": "",
+        "seller": ""
+      }
+    ]
   },
   {
     "productId": 9,
