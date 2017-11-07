@@ -4,11 +4,12 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve -o",
+    "start": "node server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "postinstall": "ng build --aot -prod"
   },
   "private": true,
   "dependencies": {
@@ -25,6 +26,7 @@
     "bootstrap": "^3.3.7",
     "bootstrap-material-design": "^4.0.0-beta.4",
     "core-js": "^2.4.1",
+    "express": "^4.16.2",
     "font-awesome": "^4.7.0",
     "jquery": "^3.2.1",
     "rxjs": "^5.4.2",
