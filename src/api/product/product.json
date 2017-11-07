@@ -487,9 +487,33 @@
     "color": "rgba(2,204,186,0.8)",
     "article":[
       {
-        "articleName": "",
-        "articleUrl": "",
-        "seller": ""
+        "articleName": "Cartes PC",
+        "articleUrl": "http://www.addi-data.fr/wp-content/uploads/2015/01/carte-pci-express-64-entrees-sorties-numeriques-apcie-1564-420x315.jpg",
+        "seller": "addidata"
+      },{
+        "articleName": "Systèmes Ethernet Wi-Fi",
+        "articleUrl": "http://www.addi-data.fr/wp-content/uploads/2015/11/systeme-ethernet-wifi-comptage-multifonctions-msx-wl-1751-420x315.jpg",
+        "seller": "addidata"
+      },{
+        "articleName": "Systèmes Ethernet intelligents",
+        "articleUrl": "http://www.addi-data.fr/wp-content/uploads/2015/02/msx-e3211-front-420x315.png",
+        "seller": "addidata"
+      },{
+        "articleName": "Systèmes temps réel",
+        "articleUrl": "http://www.addi-data.fr/wp-content/uploads/2015/02/ec-arts3701-4-420x315.png",
+        "seller": "addidata"
+      },{
+        "articleName": "Enregistrement de données",
+        "articleUrl": "http://www.addi-data.fr/wp-content/uploads/2015/01/enregistreur-ethernet-de-temperature-msx-ilog-rtd-tc-420x315.jpg",
+        "seller": "addidata"
+      },{
+        "articleName": "Convertisseurs",
+        "articleUrl": "http://www.addi-data.fr/wp-content/uploads/2015/02/convertisseur-resolveur-numerique-msx-rdc-17-420x315.jpg",
+        "seller": "addidata"
+      },{
+        "articleName": "Accessoires",
+        "articleUrl": "http://www.addi-data.fr/wp-content/uploads/2015/02/bloc-de-jonction-a-vis-px901-420x315.jpg",
+        "seller": "addidata"
       }
     ]
   },
@@ -505,9 +529,33 @@
     "color": "rgba(169,81,237,0.8)",
     "article":[
       {
-        "articleName": "",
-        "articleUrl": "",
-        "seller": ""
+        "articleName": "CMI module",
+        "articleUrl": "http://www.cincoze.com/data/images/201703/1490004070882012393.png",
+        "seller": "cincoze"
+      },{
+        "articleName": "CFM module",
+        "articleUrl": "http://www.cincoze.com/data/images/201704/1491371144271480284.png",
+        "seller": "cincoze"
+      },{
+        "articleName": "Riser Card",
+        "articleUrl": "http://www.cincoze.com/data/images/201703/1489388662491261133.png",
+        "seller": "cincoze"
+      },{
+        "articleName": "Fan Kit",
+        "articleUrl": "http://www.cincoze.com/data/images/201706/1498471956605653998.jpg",
+        "seller": "cincoze"
+      },{
+        "articleName": "Front Bezel",
+        "articleUrl": "http://www.cincoze.com/data/images/201706/1498472000577721143.jpg",
+        "seller": "cincoze"
+      },{
+        "articleName": "Power Adapter Holder",
+        "articleUrl": "http://www.cincoze.com/data/images/201703/1490004070882012393.png",
+        "seller": "cincoze"
+      },{
+        "articleName": "Universal Bracket",
+        "articleUrl": "http://www.cincoze.com/data/images/201706/1498533328400980558.jpg",
+        "seller": "cincoze"
       }
     ]
   },
@@ -529,7 +577,21 @@
         "sellerUrl": "http://52.89.180.230/wp-content/uploads/2017/06/epson-2-150x80.png"
       }
     ],
-    "color": "rgba(125,151,173,0.8)"
+    "color": "rgba(125,151,173,0.8)",
+    "article":[
+      {"articleName":"Mobile POS","articleUrl":"http://52.89.180.230/wp-content/uploads/2017/05/1_b066cea6eb51f6711ad83e17c2e149f0.jpg","seller":"posiflex"},
+      {"articleName":"POS terminal","articleUrl":"http://52.89.180.230/wp-content/uploads/2017/05/1_cc48fd6e2bbee86307be7fa87206fbed.jpg","seller":"posiflex"},
+      {"articleName":"All In One POS","articleUrl":"http://52.89.180.230/wp-content/uploads/2017/05/c81c840eb1cdd5cbd8d7171b7574d32c.jpg","seller":"posiflex"},
+      {"articleName":"POS box","articleUrl":"http://52.89.180.230/wp-content/uploads/2017/05/9bc41402eef742f655d964428d90272a.jpg","seller":"posiflex"},
+      {"articleName":"POS monitor","articleUrl":"http://52.89.180.230/wp-content/uploads/2017/05/cb9205be0e1c581ca00bb884437ab117.jpg","seller":"posiflex"},
+      {"articleName":"Line display","articleUrl":"http://52.89.180.230/wp-content/uploads/2017/05/9c885632cf9b5959522ba997ac76b756.jpg","seller":"posiflex"},
+      {"articleName":"Cash drawer","articleUrl":"http://52.89.180.230/wp-content/uploads/2017/05/891c110e536f7e864bfadefee3c07e9b.jpg","seller":"posiflex"},
+      {"articleName":"RP-D10 bluetooth model","articleUrl":"http://52.89.180.230/wp-content/uploads/2017/05/csm_Bild3_8829cd57da-150x150.jpg","seller":"posiflex"},
+      {"articleName":"MSR","articleUrl":"http://52.89.180.230/wp-content/uploads/2017/05/1_f0f0e2076b5f575c202d294c737a8d18.jpg","seller":"posiflex"},
+      {"articleName":"RP-E series","articleUrl":"http://52.89.180.230/wp-content/uploads/2017/05/csm_RP-E-Series_5991c85129-150x144.jpg","seller":"seiko"},
+      {"articleName":"RP-D series","articleUrl":"http://52.89.180.230/wp-content/uploads/2017/05/csm_RP-D_both-directions_web_977a3015ac-150x150.jpg","seller":"seiko"},
+      {"articleName":"POS printer","articleUrl":"http://52.89.180.230/wp-content/uploads/2017/05/41929f41801731235df4fe034874b263.jpg","seller":"seiko"}
+    ]
   },
   {
     "productId": 10,
@@ -540,7 +602,15 @@
       "sellerName": "zebra",
       "sellerUrl": "http://52.89.180.230/wp-content/uploads/2017/06/zebra-3-150x80.png"
     }],
-    "color": "rgba(255,84,131,0.8)"
+    "color": "rgba(255,84,131,0.8)",
+    "article":[
+      {"articleName":"KR203 kiosk receipt printer","articleUrl":"http://52.89.180.230/wp-content/uploads/2017/05/1404820623168-150x150.jpg","seller":"zebra"},
+      {"articleName":"KR403 kiosk receipt printer","articleUrl":"http://52.89.180.230/wp-content/uploads/2017/05/1404820623168-150x150.jpg","seller":"zebra"},
+      {"articleName":"MP-B20","articleUrl":"http://52.89.180.230/wp-content/uploads/2017/05/csm_MP-B20_Press_release__9c38be7e71-150x150.png","seller":"zebra"},
+      {"articleName":"MP-A40","articleUrl":"http://52.89.180.230/wp-content/uploads/2017/05/csm_MP-A40_web21_99d93f87be-150x150.jpg","seller":"zebra"},
+      {"articleName":"DPU-S245","articleUrl":"http://52.89.180.230/wp-content/uploads/2017/05/csm_dpu-s245_close_2ea63bbe52-150x150.jpg","seller":"zebra"},
+      {"articleName":"DPU-S445","articleUrl":"http://52.89.180.230/wp-content/uploads/2017/05/csm_dpu-s445_web_open_cover_86e9b5ff7f-150x150.jpg","seller":"zebra"}
+    ]
   },
   {
     "productId": 11,
@@ -556,6 +626,29 @@
         "sellerUrl": "http://www.abbegroup.com.my/wp-content/uploads/2017/09/news_s63.jpg"
       }
     ],
-    "color": "rgba(248, 152, 41, .8)"
+    "color": "rgba(248, 152, 41, .8)",
+    "article":[
+      {"articleName":"M354","articleUrl":"http://52.89.180.230/wp-content/uploads/2017/05/20150915_093838_gris_sans-ombres-1.png","seller":"oteksys"},
+      {"articleName":"M175","articleUrl":"http://52.89.180.230/wp-content/uploads/2017/05/M470-Noir-150x150.jpg","seller":"oteksys"},
+      {"articleName":"M365","articleUrl":"http://52.89.180.230/wp-content/uploads/2017/05/20150915_093838_gris_sans-ombres-1.png","seller":"oteksys"},
+      {"articleName":"M363","articleUrl":"http://52.89.180.230/wp-content/uploads/2017/05/M363_pole-200x300.jpg","seller":"oteksys"},
+      {"articleName":"M467","articleUrl":"http://52.89.180.230/wp-content/uploads/2017/05/M467-150x150.png","seller":"oteksys"},
+      {"articleName":"M177","articleUrl":"http://52.89.180.230/wp-content/uploads/2017/05/M470-Noir-150x150.jpg","seller":"oteksys"},
+      {"articleName":"M168","articleUrl":"http://52.89.180.230/wp-content/uploads/2017/05/M368PB-face-avant-150x150.jpg","seller":"oteksys"},
+      {"articleName":"M178","articleUrl":"http://52.89.180.230/wp-content/uploads/2017/05/M470-Noir-150x150.jpg","seller":"oteksys"},
+      {"articleName":"M179","articleUrl":"http://52.89.180.230/wp-content/uploads/2017/05/M470-Noir-150x150.jpg","seller":"oteksys"},
+      {"articleName":"Standard aspect ratio","articleUrl":"http://52.89.180.230/wp-content/uploads/2017/05/elo_1515-itat_product_hero_gallery_1400x800_front_1_5-150x150.png","seller":"elo"},
+      {"articleName":"Wide aspect ratio","articleUrl":"http://52.89.180.230/wp-content/uploads/2017/05/1002_pcap_front-150x150.png","seller":"elo"},
+      {"articleName":"Healthcare grade","articleUrl":"http://52.89.180.230/wp-content/uploads/2017/05/1519lm_front-150x150.png","seller":"elo"},
+      {"articleName":"90 series standard aspect ratio","articleUrl":"http://52.89.180.230/wp-content/uploads/2017/05/1590_pcap_front_1_3_1-150x150.png","seller":"elo"},
+      {"articleName":"90 series wide aspect ratio","articleUrl":"http://52.89.180.230/wp-content/uploads/2017/05/elo_1593_product_hero_gallery_1400x800_front_1-150x150.png","seller":"elo"},
+      {"articleName":"Large format wide aspect ratio","articleUrl":"http://52.89.180.230/wp-content/uploads/2017/05/elo_3243_product_hero_gallery_1400x800_front-150x150.png","seller":"elo"},
+      {"articleName":"X series touchscreen","articleUrl":"http://52.89.180.230/wp-content/uploads/2017/05/x15_front-150x150.png","seller":"elo"},
+      {"articleName":"E series touchscreen computer","articleUrl":"http://52.89.180.230/wp-content/uploads/2017/05/elo_e-series_features_914x570_front-150x150.png","seller":"elo"},
+      {"articleName":"I series touchscreen computer","articleUrl":"http://52.89.180.230/wp-content/uploads/2017/05/elo_i-series10_product_hero_gallery_1400x800_front_1-150x150.png","seller":"elo"},
+      {"articleName":"C series touchscreen computer","articleUrl":"http://52.89.180.230/wp-content/uploads/2017/05/elo_c-series_product_hero_gallery_1400x800_front-150x150.png","seller":"elo"},
+      {"articleName":"I series touchscreen computer for POS","articleUrl":"http://52.89.180.230/wp-content/uploads/2017/05/elo_mpos2_product_hero_gallery_1400x800_pt3_2-150x150.png","seller":"elo"},
+      {"articleName":"Small format touchscreen signage","articleUrl":"http://52.89.180.230/wp-content/uploads/2017/05/elo_i-series10_product_hero_gallery_1400x800_front_1-150x150.png","seller":"elo"}
+    ]
   }
 ]

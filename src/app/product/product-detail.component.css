@@ -1,6 +1,13 @@
 .product-detail{
-margin-top: 80px;    
+margin-top: 150px;    
 }
 .panel {
     margin-top: 20px;
 }
+@media (min-width: 380) {
+    div {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+   }
+   

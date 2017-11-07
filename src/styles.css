@@ -42,8 +42,7 @@ body {
   transition: all 0.3s grey ease;
   width: 350px;
   height: 142px;
-  margin-left: 150px;
-  margin-right: auto;
+  margin-right: 10px;
 }
 
 .card-image {

@@ -12,7 +12,7 @@
         </div>
       </div>
       <div class='table-responsive'>
-        <table class="table ">
+        <table class="table-responsive ">
           <thead>
             <tr>
               <th>
@@ -34,8 +34,8 @@
             <h1 class="text-center" *ngIf='listFilter == "Informatique"'>{{pageSubTitle02}}</h1>
             <h1 class="text-center" *ngIf='listFilter == "Interface"'>{{pageSubTitle03}}</h1>
           
-            <a *ngFor="let product of filteredProducts" [routerLink]="['/product', product.productId]">
-              <div class="col-sm-4 solutions_reseau">
+            <div class="col-sm-4 solutions_reseau" *ngFor="let product of filteredProducts">
+            <a  [routerLink]="['/product', product.productId]">
                 <div class="vignette">
                   <div class="vignette-header">
                     <div class="vignette-header-overlay" [style.background-color]='product.color'>
@@ -49,10 +49,9 @@
                     <p><img *ngFor='let img of this.product.seller, index as i' [src]='product.seller[i].sellerUrl' width="100px"></p>
                   </div>
                 </div>
-              </div>
-            </a>
+              </a>
+            </div>
           </tbody>
-
         </table>
       </div>
     </div>
