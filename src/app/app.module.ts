@@ -13,6 +13,7 @@ import { ProductDetailComponent } from './product/product-detail.component';
 import { PartnerComponent } from './partner/partner.component';
 import { SkillComponent } from './skill/skill.component';
 import { ContactComponent } from './contact/contact.component';
+import { NewsComponent } from './news/news.component';
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import { ContactComponent } from './contact/contact.component';
     PartnerComponent,
     SkillComponent,
     ContactComponent,
+    NewsComponent,
   ],
   imports: [
     BrowserModule,
@@ -37,6 +39,7 @@ import { ContactComponent } from './contact/contact.component';
       { path: 'product', component: ProductComponent},
       { path: 'product/:id', component: ProductDetailComponent},
       { path: 'partner', component: PartnerComponent},
+      { path: 'news', component: NewsComponent},
       { path: 'contact', component: ContactComponent},
       { path: '', redirectTo: 'home', pathMatch: 'full'}
     ])
