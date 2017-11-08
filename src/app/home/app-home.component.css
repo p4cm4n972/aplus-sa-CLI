@@ -3,7 +3,8 @@
 
 /* Carousel base class */
 .carousel {
-  height: 389px;
+  height: 450px;
+  margin-bottom: 60px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -12,38 +13,25 @@
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 389px;
+  height: 450px;
+  background-color: #777;
 }
 .carousel-inner > .item > img {
   position: absolute;
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 389px;
-}
-@media (max-width: 378px) {
-  .carousel .item {
-    width: 100%;
-    height: 150px;
-  }
-  .carousel {
-    height: 150px;
-  }
-  .carousel-inner > .item > img {
-    height: 150px;
-  }
+  height: 450px;
 }
 
 body {
   webkit-tap-highlight-color: #fed136;
 }
 
-section {
-  padding: 100px 0;
+.section1 {
+  margin:20px;
 }
-.section1,.section3{
-  background: rgba(46, 61, 73, .1)
-}
+
 .section2 img {
   width: 100%;
   padding: 5px;
@@ -52,117 +40,18 @@ section {
   padding-bottom: 50px;
 }
 
-
-@media (min-width: 768px) {
-  section {
-    padding: 150px 0;
-  }
-}
-
-header {
-  background-image: url('../../assets/image/bkg.jpg');
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
- 
-}
-header .intro-text {
-  padding-top: 100px;
-  padding-bottom: 50px;
-}
-header .intro-text .intro-lead-in {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: italic;
-  font-size: 22px;
-  line-height: 22px;
-  margin-bottom: 25px;
-  color: transparent;
-  
-}
-header .intro-text .intro-heading {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 50px;
-  line-height: 50px;
-  margin-bottom: 25px;
-  color: transparent;
-}
-@media (min-width: 768px) {
-  header .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px;
-  }
-  header .intro-text .intro-lead-in {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-style: italic;
-    font-size: 40px;
-    line-height: 40px;
-    margin-bottom: 25px;
-  }
-  header .intro-text .intro-heading {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 75px;
-    line-height: 75px;
-    margin-bottom: 50px;
-    
-  }
-}
-/*********************************************************************/
-.contain {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-.right {
-position: absolute;
-right: 16px;
-}
-
-video {
-  width: 500px;
-  border-radius: 5px;
-  margin: auto;
-  border-top: 2px solid #0079c2;
-  border-bottom: 2px solid #b4dc95;
-  border-bottom-right-radius: 2em;
-  border-left: 1px solid #f89829;
-  border-right: 1px solid #f89829;
-  border-bottom-right-radius: 2em;
-}
-
-.presentationVideo video {
-  text-align: center;
-}
-.presentationVideo p {
-  text-align: justify;
-}
-.presentationVideo h2 {
-  color: #0079c2;
-  text-align: center;
-}
-
-
-
-
-
 /*********************PARTNERS*********************/
 
-.carousel {
+.section3 .carousel {
   margin-bottom: 0;
   padding: 0 40px 30px 40px;
+  height: 200px;
 }
 
 
 /* The controlsy */
 
-.carousel-control {
+.section3 .carousel-control {
   height: 40px;
   width: 40px;
   background: none repeat scroll 0 0 #222222;
@@ -171,32 +60,42 @@ video {
   margin-top: 90px;
 }
 
-.carousel-control.right {
+.section3 .carousel-control.right {
   right: 12px;
 }
 
-.carousel-control.left {
+.section3 .carousel-control.left {
   right: 12px;
 }
 
 
 /* The indicators */
 
-.section4 .carousel-indicators {
+.section3 .carousel-indicators {
   right: 50%;
   top: 150px;
   bottom: -10px;
   margin-right: -10px;
 }
-
+.section3 .carousel .item {
+  height: 100px;
+  background-color:transparent;
+}
+.section3 .carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 100px;
+}
 
 /* The colour of the indicators */
 
-.carousel-indicators li {
+.section3 .carousel-indicators li {
   background: #cecece;
 }
 
-.carousel-indicators .active {
+.section3 .carousel-indicators .active {
   background: #428bca;
 }
 
@@ -369,60 +268,4 @@ video {
   margin-top: 15%;
   background-color: ;
   text-shadow: 1px 1px 1px black;
-}
-/*********************CONTACT***************************/
-section#contact {
-  background-color: #0079c2;
-  background-image: url('../../assets/image/map-image.png');
-  background-position: center;
-  background-repeat: no-repeat;
-}
-section#contact .section-heading {
-  color: white;
-}
-section#contact .form-group {
-  margin-bottom: 25px;
-}
-section#contact .form-group input,
-section#contact .form-group textarea {
-  padding: 20px;
-}
-section#contact .form-group input.form-control {
-  height: auto;
-}
-section#contact .form-group textarea.form-control {
-  height: 236px;
-}
-section#contact .form-control:focus {
-  border-color: #fed136;
-  box-shadow: none;
-}
-section#contact ::-webkit-input-placeholder {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #eeeeee;
-}
-section#contact :-moz-placeholder {
-  /* Firefox 18- */
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #eeeeee;
-}
-section#contact ::-moz-placeholder {
-  /* Firefox 19+ */
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #eeeeee;
-}
-section#contact :-ms-input-placeholder {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #eeeeee;
-}
-section#contact .text-danger {
-  color: #e74c3c;
 }

@@ -1,86 +1,45 @@
- <!-- <nav class="navbar navbar-inverse">
-    <div class="tease">
-      <span><strong>Depuis 1988</strong></span>
-      <div style="float:right;"><strong>Lun - Ven 8:45 - 17:30</strong></div>
-    </div>
-
-    <div class="container" id="navbarTogglerDemo01">
-      <a class="navbar-brand" [routerLink]="['/home']">
-        <img src="../assets/image/APLUS_small.PNG" width="120px" alt="business logo APLUS SA">
-      </a>
-      <ul class="nav navbar-nav navbar-right">
-        <li class="nav-item active">
-          <a [routerLink]="['/']">ACCUEIL</a>
-        </li>
-        <li class="nav-item">
-            <a [routerLink]="['/history']">LA SOCIÉTÉ</a>
-          </li>
-        <li class="nav-item">
-          <a [routerLink]="['/history']">NOS COMPÉTENCES</a>
-        </li>
-        <li class="nav-item">
-          <a [routerLink]="['/product']">NOS PRODUITS</a>
-        </li>
-        <li class="nav-item">
-          <a [routerLink]="['/partners']">NOS PARTENAIRES</a>
-        </li>
-        <li class="nav-item">
-          <a [routerLink]="['/history']">NEWS</a>
-        </li>
-        <li class="nav-item">
-          <a [routerLink]="['/history']">CONTACT</a>
-        </li>
-
-      </ul>
-    </div>
-  </nav>-->
-  
-   <!-- Navigation -->
-   <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top affix-top">
-      
+ <div class="navbar-wrapper">
       <div class="container">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header nav-item">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                  <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+        <nav class="navbar  navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand nav-item" [routerLink]="['/home']"><img src="../assets/image/LOGO APLUS.PNG" class="img-responsive" width="50px" alt="business logo APLUS SA"></a>
-          </div>
-
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav navbar-right">
-                  <li class="hidden">
-                      <a [routerLink]="['/home']"></a>
-                  </li>
-                  <li>
-                      <a class="nav-item" [routerLink]="['/']">ACCUEIL</a>
-                  </li>
-                  <li>
-                      <a class="nav-item" [routerLink]="['/history']">LA SOCIÉTÉ</a>
-                  </li>
-                  <li>
-                      <a class="nav-item" [routerLink]="['/history']">NOS COMPÉTENCES</a>
-                    </li>
-                  <li>
-                      <a class="nav-item" [routerLink]="['/product']">NOS PRODUITS</a>
-                  </li>
-                  <li>
-                      <a class="nav-item" [routerLink]="['/partner']">NOS PARTENAIRES</a>
-                  </li>
-                  <li>
-                      <a class="nav-item" [routerLink]="['/history']">NEWS</a>
-                    </li>
-                    <li>
-                      <a class="nav-item" [routerLink]="['/history']">CONTACT</a>
-                    </li>
+              <a class="navbar-brand" [routerLink]="['/home']"><img src="../assets/image/LOGO APLUS.PNG" class="img-responsive" width="25px" alt="business logo APLUS SA"></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a [routerLink]="['/']">ACCUEIL</a></li>
+                <li><a [routerLink]="['/history']">LA SOCIÉTÉ</a></li>
+                <li><a [routerLink]="['/skill']">NOS COMPÉTENCES</a></li>
+                <li><a [routerLink]="['/product']">NOS PRODUITS</a></li>
+                <li><a [routerLink]="['/partner']">NOS PARTENAIRES</a></li>
+                <li><a [routerLink]="['/']">NEWS</a></li>
+                <li><a [routerLink]="['/contact']">CONTACT</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Newsletter</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Déstockage</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">Connexion</a></li>
+                    <li><a href="#">Demande d'ARM</a></li>
+                  </ul>
+                </li>
               </ul>
+            </div>
           </div>
-          <!-- /.navbar-collapse -->
+        </nav>
+
       </div>
-      <!-- /.container-fluid -->
-  </nav>
-<div >
+    </div>
+<div>
   <router-outlet></router-outlet>
 </div>
 
