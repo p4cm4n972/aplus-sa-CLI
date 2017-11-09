@@ -5,7 +5,8 @@
 .keys {
   color: white;
   height: auto;
-  background-image: linear-gradient(160deg, #0071b9 0%,  #b4dc95 100%);
+  /*background-image: linear-gradient(160deg, #0071b9 0%,  #b4dc95 100%);*/
+  background-color: #0079c2;
   border-radius: 5px;
   padding: 15px;
   box-shadow: 5px 5px 25px 0px rgba(46, 61, 73, .2);
