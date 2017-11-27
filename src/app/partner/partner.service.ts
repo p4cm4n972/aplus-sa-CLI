@@ -23,7 +23,7 @@ private _productUrl = '../api/product/catalogue.json';
 
     getProductDetail(id: number): Observable<IProductOring> {
         return this.getProduct()
-        .map((product: IProductOring[]) => product.find(p => p.productId === id ));
+        .map((product: IProductOring[]) => product.find(p => p.modele === id ));
     }
     private handleError(err: HttpErrorResponse) {
         console.error(err.message);
