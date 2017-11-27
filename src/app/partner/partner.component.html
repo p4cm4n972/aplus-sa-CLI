@@ -1,1 +1,10 @@
-<div style="position: absolute;width:100%;height:55px;background:#0079c2"></div>
+<div style="width:100%;height:55px;background:#0079c2; margin-bottom:20px"></div>
+<div class="container">
+    <div class="row">
+    <div class="col-xs-6 col-md-3" *ngFor="let img of partner">
+      <a href="#" class="large">
+        <img [src]="img.imgUrl" alt="...">
+      </a>
+    </div>
+  </div>
+</div>
